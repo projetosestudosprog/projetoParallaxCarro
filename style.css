@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color:#f6f6f6;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    text-align: center;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+section:nth-of-type(1) {
+    background-image: url("imagem/ferrari-preto1.jpg");
+    
+}
+
+
+section:nth-of-type(3) {
+    background-image: url("imagem/ferrari-preto2.jpg");
+}
+
+section:nth-of-type(5) {
+    background-image: url("imagem/carro1.jpg");
+}
+
+section:nth-of-type(7) {
+    background-image: url("imagem/carro2.jpg");
+}
+
+section:nth-of-type(9) {
+    background-image: url("imagem/carro3.jpg");
+}
+
+section:nth-of-type(11) {
+    background-image: url("imagem/carro4.jpg");
+}
+
+section:nth-of-type(13) {
+    background-image: url("imagem/carro5.jpg");
+}
+
+section:nth-of-type(15) {
+    background-image: url("imagem/carro6.jpg");
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sessao-texto {
+   
+    height: 300px;
+    padding: 20px;
+    
+    background-color: transparent;
+    color:#111111 ;
+    border-radius: 30px;
+    height: 300px;
+}
+
+
+.texto {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight:100;
+}
